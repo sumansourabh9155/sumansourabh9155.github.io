@@ -5,11 +5,11 @@
 // );
 // document.querySelector('.message').textContent = '<== Enter number in box';
 
-const guessNo = Math.trunc(Math.random() * 20) + 1;
+const guessNo = Math.trunc(Math.random() * 100) + 1;
 console.log(guessNo);
 
 let highScore = 0;
-let score = 10;
+let score = 15;
 document.querySelector('.score').textContent = score;
 
 document.querySelector('.check').addEventListener('click', function () {

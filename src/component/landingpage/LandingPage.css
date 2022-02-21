@@ -1,0 +1,18 @@
+.hero {
+  padding-top: 90px;
+}
+.intro {
+  font-size: 4rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: inline;
+}
+
+.scrolldown {
+  margin-left: 1%;
+  padding-left: 1%;
+}
+p {
+  writing-mode: vertical-rl;
+  font-size: 0.6rem;
+  margin-bottom: 0.2%;
+}

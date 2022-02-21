@@ -1,0 +1,21 @@
+.links {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  writing-mode: vertical-rl;
+  /* text-orientation: upright; */
+  display: table;
+  color: grey;
+}
+.links p {
+  font-size: 1rem;
+  position: sticky;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 500%;
+  padding: 25px 0px 25px;
+}
+p:hover {
+  text-decoration: none;
+}

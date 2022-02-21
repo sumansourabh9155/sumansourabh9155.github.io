@@ -1,0 +1,23 @@
+.logo {
+  padding: 0px;
+  margin: 0%;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.siz {
+  font-size: large;
+}
+ul {
+  font-size: larger;
+}
+
+li {
+  margin: 0px 20px 0px 20px;
+}
+
+.contact {
+  outline: 5px solid grey;
+  fill: none;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+}

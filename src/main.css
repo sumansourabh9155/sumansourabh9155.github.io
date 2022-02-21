@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(../src/component/navbar/Navbar.css);
+@import url(../src/component/landingpage/LandingPage.css);
+@import url(../src/component/links/Link.css);
+@import url(../src/component/skills/Skills.css);
+
+.bg_image {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  padding: 1.8%;
+  font-size: 1.5rem;
+  padding-top: 0.5%;
+  color: white;
+}
+
+.glassy {
+  /* Rectangle 32 */
+  padding: 1% 2% 2% 2%;
+  margin: 1%;
+  width: 98%;
+  background: linear-gradient(
+    117.66deg,
+    rgba(255, 255, 255, 0.27) 9.22%,
+    rgba(255, 255, 255, 0.08) 82.82%
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 40px;
+}
+/*# sourceMappingURL=main.css.map */
